@@ -56,8 +56,19 @@ $ git remote add origin https://github.com/yun-xu/road_segmentation.git
 $ git push -u origin master
 
 
+8---branch operate
 
 
+$ git branch                     //check branch
+$ git branch <name>              //create branch
+$ git checkout <name>            //switch branch
+$ git checkout -b <name>         //create and switch branch
+$ git merge <name>               //merge the <name> branch to current
+$ git branch -d <name>           //delete branch
+
+9---brach visualization
+
+$ git log --graph --pretty=oneline --abbrev-commit
 
 
 
